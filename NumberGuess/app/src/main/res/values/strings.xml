@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NumberGuess</string>
+    <string name="title">Adivinhe o número</string>
+</resources>
