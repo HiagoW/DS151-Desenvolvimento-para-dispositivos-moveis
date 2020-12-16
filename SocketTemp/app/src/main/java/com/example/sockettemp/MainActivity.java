@@ -21,6 +21,6 @@ public class MainActivity extends AppCompatActivity {
 
         Double tempC = Double.parseDouble(temp.getText().toString());
         RequestTask tasks = new RequestTask(out);
-        tasks.onPostExecute(tempC);
+        tasks.execute(tempC);
     }
 }
